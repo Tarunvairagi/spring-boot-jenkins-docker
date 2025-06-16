@@ -15,6 +15,7 @@ public class JavaDockerApplication {
     }
 
 	public static void main(String[] args) {
+        System.out.println("Jenkins build is ready to use");
 		SpringApplication.run(JavaDockerApplication.class, args);
 	}
 
